@@ -12,12 +12,12 @@
     <header>
         <div class="header-background" id="header-grid">
             <a href="index.html">
-                <img src="./images/eg_logo.png" alt="Emily Gunn Logo">
+                <img class="logo" src="./images/eg_logo.png" alt="Emily Gunn Logo">
             </a>
-            <nav>
+            <nav id="head-nav-grid">
                 <a href="index.html">Home</a>
                 <a href="contact.html">Contact</a>
-                <ul>
+                <ul id="nav-list">
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="expirience.html">Expirience</a></li>
@@ -26,9 +26,11 @@
         </div>
     </header>
     <main>
-        <h1>Emily Gunn</h1>
-        <h6>Software Engineering Student</h6>
-        <p>Quote?</p>
+        <div class="intro">
+            <h1>Emily Gunn</h1>
+            <h5>Software Engineering Student</h5>
+        </div>
+        <p class="quote">"Great dancers are not great becasue of their technique they are great becasue of their passion." - Martha Graham</p>
         <section class="large-section" id="about-me-sec">
             <h2>About Me</h2>
             <p>Hello! I am Emily Gunn, a Software Engineering student at BYU-Idaho. I am currently in my first semester, so I am very excited to learn a lot and dive into the technical world. So far, I have basic knowledge in Python as well as HTML and CSS and wish to continue learning those languages as well as others. I love learning about computers and all of the things that we can accomplish with them.</p>
@@ -68,21 +70,23 @@
                 <li>Waking up early</li>
             </ul>
         </section>
+        <img id="dance-img" src="./images/dancestudio-picture.webp" alt="Dance Studio of Emily Gunn. Photo by Heather Catale">
         <section class="large-section" id="why-me-sec">
             <h2>Why Me</h2>
             <p>Why should you hire me? I like to be organized and have things planned out to know exactly what I need to do and what needs to be done. I also enjoy having challenges that can be solved with creative solutions. I generally work well with people and try to work with and include other ideas when it comes to working with groups. While I try to have fun, I value working hard and doing quality work.</p>
         </section>
-        <img src="./images/dancestudio-picture.webp" alt="Dance Studio of Emily Gunn. Photo by Heather Catale">
     </main>
     <footer>
-        <nav id="footer-grid">
-            <a href="index.html">Home</a>
-            <a href="site-plan.html">Site Plan</a>
-            <a href="contact.html">Contact</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="resume.html">Resume</a>
+        <nav>
+            <div id="footer-grid">
+                <a class="f_1" href="index.html">Home</a>
+                <a class="f_2" href="site-plan.html">Site Plan</a>
+                <a class="f_3" href="contact.html">Contact</a>
+                <a class="f_4" href="portfolio.html">Portfolio</a>
+                <a class="f_5" href="resume.html">Resume</a>
+            </div>
         </nav>
-        <p>&amp;2024 - Emily Gunn - All rights reserved.</p>
+        <p>&copy; 2024 - Emily Gunn - All rights reserved.</p>
     </footer>
 </body>
 </html>
