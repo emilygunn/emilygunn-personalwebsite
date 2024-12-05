@@ -114,7 +114,7 @@ p, li {
 }
 
 .list-section h2 {
-    color: var(--accent1-color);
+    color: #518fa2;
 }
 
 #about-me-sec {
@@ -168,7 +168,7 @@ footer {
 
 footer p {
     text-align: center;
-    color: var(--accent2-color);
+    color: #d5cef9;
 }
 
 @media screen and (max-width: 900px) {
