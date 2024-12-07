@@ -27,6 +27,7 @@
 * {
     margin: 0;
     max-width: 5000px;
+    box-sizing: border-box;
 }
 
 header {
@@ -117,7 +118,7 @@ p, li {
     border: 3px double var(--accent2-color);
 }
 
-.list-section h2 {
+.list-section h2, .list-section h3, .list-section h4 {
     color: #3F6B73;
 }
 
@@ -154,6 +155,8 @@ p, li {
 footer {
     padding-top: 20px;
     background-color: var(--accent3-color);
+    width: 100%;
+    margin: 0;
 }
 
 #footer-grid {
@@ -175,6 +178,56 @@ footer p {
     color: #d5cef9;
 }
 
+/*Skills Page - Sub 1*/
+
+.skills-h {
+    grid-area: 1/1/2/11;
+    justify-self: center;
+}
+
+.skills-sh {
+    padding: 10px;
+    border: 2px double var(--secondary-color);
+    border-radius: 50%;
+}
+
+#skills-sh1 {
+    grid-area: 1/1/2/11;
+    justify-self: center;
+    align-self: center;
+}
+
+#python-skills {
+    grid-area: 2/2/3/5;
+}
+
+.skills-img {
+    border: 3px double var(--accent3-color);
+    justify-self: center;
+    align-self: center;
+}
+
+#numgame-img {
+    width: 100%;
+    grid-area: 2/7/3/10;
+}
+
+#html-css-skills{
+    grid-area: 3/2/4/5;
+}
+
+#wwr-img {
+    width: 100%;
+    grid-area: 3/7/4/10;
+}
+
+#skills-sh2 {
+    grid-area: 4/1/5/11;
+    justify-self: center;
+    align-self: center;
+}
+
+/*Mobile*/
 @media screen and (max-width: 900px) {
     #header-grid {
         margin: 0;
@@ -192,5 +245,15 @@ footer p {
         display: block;
         margin: 0 auto;
         float: none;
+    }
+
+    /*Skills Page*/
+
+    .skills-sh {
+        margin: 10px;
+    }
+
+    .skills-img {
+        width: 10%;
     }
 }
