@@ -227,6 +227,66 @@ footer p {
     align-self: center;
 }
 
+/*Projects Page - Sub 2*/
+
+.proj-h {
+    grid-area: 1/2/2/5;
+    letter-spacing: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+#small-projects {
+    grid-area: 2/2/4/6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.proj-sh1 {
+    grid-area: 1/1/2/3;
+    justify-self: center;
+}
+
+#python-projects {
+    grid-area: 1/1/2/3;
+    align-self: center;
+}
+
+#forest-img {
+    width: 100%;
+    grid-area: 2/6/3/10;
+    justify-items: center;
+    align-self: center;
+    border: 3px double var(--secondary-color);
+}
+
+#wireframe-img {
+    width: 100%;
+    grid-area: 2/2/3/3;
+}
+
+.proj-sh2 {
+    grid-area: 3/6/4/10;
+    justify-self: center;
+}
+
+#large-prjects {
+    grid-area: 3/6/4/10;
+    align-self: center;
+}
+
+.proj-sh3 {
+    grid-area: 4/4/5/8;
+    justify-self: center;
+}
+
+#group-projects {
+    grid-area: 4/2/5/10;
+    align-self: center;
+    justify-items: center;
+}
+
 /*Mobile*/
 @media screen and (max-width: 900px) {
     #header-grid {
@@ -255,5 +315,10 @@ footer p {
 
     .skills-img {
         width: 10%;
+    }
+
+    /*Projects Page*/
+    #group-projects {
+        justify-items: left;
     }
 }
